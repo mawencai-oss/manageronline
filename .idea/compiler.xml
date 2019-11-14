@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="alipay" />
+        <module name="doc-schedule" />
+        <module name="docmsg" />
+        <module name="drug-depart" />
+        <module name="eletisearch" />
+        <module name="eureka-config" />
+        <module name="eureka-server" />
+        <module name="eureka-zuul" />
+        <module name="lbt-img" />
+        <module name="model" />
+        <module name="redis" />
+        <module name="upload-client" />
+        <module name="websoket" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="config-server" target="1.8" />
+      <module name="department_msg" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
